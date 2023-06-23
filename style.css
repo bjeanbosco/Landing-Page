@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+/* the styles below this comment are all for the first section for my website anyone who can be intersted by them can
+drop here to check them thank you! */
+.section-one{
+    background-color: #1F2937;
+    padding: 20px 150px 70px 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 40px;
+    margin-right: 70px;
+}
+.navbar ul li a,.secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.navbar ul li a{
+    text-transform: capitalize;
+}
+.secondary{
+   font-family: Arial;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 60px;
+}
+.Main-info{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.signUp-btn{
+    background-color: #3882F6;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.main-content{
+    display: flex;
+    padding: 120px 70px 60px 70px;
+    gap: 60px;
+}
+.Img{
+    width: 550px;
+    height: 250px;
+    border: 3px solid darkblue;
+}
+/*            all styles below this comment are all for section two pf my website anyone who can be interested by 
+                   them he or she can kindly come and observe them it is allowed to do so thank you ! */
+
+
+.text-info{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 35px;
+}
+.container-info{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    padding: 30px 0 120px 0;
+    margin-bottom: 30px;
+    flex-shrink: 1;
+}
+.info-one{
+    width: 160px;
+}
+.box{
+    width: 160px;
+    height: 140px;
+    border-radius: 10px;
+}
+figcaption{
+    text-align-last: center;
+    font-size: 17px;
+    font-family:  sans-serif;
+    color: black;
+    opacity: .5;
+}
+
+/*                all the styles provided below this comment all for the section three
+ and it is probably allowed to check and observe for making your own thank you */
+ .section-three{
+    background-color: #E5E7EB;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     padding: 90px 0;
+ }
+ .section-three div{
+    font-size: 36px;
+    width: 70%;
+    color: #1F2937;
+    font-style: italic;
+    font-family: Arial;
+   
+ }
+ .section-three h4{
+ padding-left: 800px;
+ padding-bottom: 20px;
+font-size: 20px;
+
+ }
+
+ /* all the styles below this comment line are all for section four of my website for anyone who can be intersted
+    feel free to come and observe them it is allowed to do so thank you */
+
+ .section-four{
+        padding: 80px 0;
+    }
+
+.box-content{
+    display: flex;
+    background-color: #3882F6;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 50px 0;
+    border-radius: 10px;
+    flex-shrink: 1;
+}
+.box-content button{
+    padding: 1px 30px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    height: 40px;
+}
+.box-content h4{
+    color: #F9FAF8;
+    font-size: 27px;
+}
+.box-content p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/* the styles below this comment are all for footer section so please come and observe them if you need them*/
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    padding: 50px 0;
+    background-color: #1F2937;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+}
